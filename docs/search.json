@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "week0/index.html",
+    "href": "week0/index.html",
+    "title": "Pre-requisite for TT-Lecture 01",
+    "section": "",
+    "text": "Before the R Programming lecture, please install the following software:\n\nR\nRStudio\n\nIf you are a Windows user, you will also need to install an additional software package: Rtools.\nClick here to view R and RStudio installation guide\nNote:\n\nPlease ensure that you install R before installing RStudio.\nAfter installing both R and RStudio, double-click the RStudio icon to open it. In the console, type the following command:\n\nR.version.string\nPress Enter, and note down the displayed R version in your notebook.\n\nTo install Rtools\n\nDownload Rtools from here https://cran.r-project.org/bin/windows/Rtools/\nDownload the correct Rtools installer for your R version from the official Comprehensive R Archive Network (CRAN) page.\n\nFor example:\n\nIf your R version is 4.4.x, download Rtools44\nIf your R version is 4.3.x, download Rtools43\nIf your R version is 4.2.x, download Rtools42\nIf your R version is 4.0–4.1.x, download Rtools40\n\n\nRun the downloaded .exe file and follow the installer prompts, typically accepting the default options and installation directory."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "About",
+    "section": "",
+    "text": "Department: Department of Transport Management and Logistics Engineering (TMLE), Faculty of Engineering.\nDegree Program: BSc Engineering (Hons ) in Transport Management and Logistics Engineering.\nModule Code and Title: LT 2010 - Data Science for Transport & Logistics Systems.\nSemester: 03 (out of 8 semesters).\nCredits: 4 credits.\nNo of Students: 87"
+  },
+  {
+    "objectID": "index.html#about-the-degree-programme-and-the-unit",
+    "href": "index.html#about-the-degree-programme-and-the-unit",
+    "title": "About",
+    "section": "",
+    "text": "Department: Department of Transport Management and Logistics Engineering (TMLE), Faculty of Engineering.\nDegree Program: BSc Engineering (Hons ) in Transport Management and Logistics Engineering.\nModule Code and Title: LT 2010 - Data Science for Transport & Logistics Systems.\nSemester: 03 (out of 8 semesters).\nCredits: 4 credits.\nNo of Students: 87"
+  },
+  {
+    "objectID": "index.html#lesson-plan",
+    "href": "index.html#lesson-plan",
+    "title": "About",
+    "section": "Lesson plan",
+    "text": "Lesson plan\n\nStart on: 8th September 2025.\nEnd on: 29th September 2025.\nNo. of Lectures: 4 (can be adjusted if more is needed)\nLecture time: Monday afternoon (1.15 pm – 4.15 pm).\nType: Online via Zoom\nContinuous Assignments: One (1) individual assignment on R programming (this accounts for 10% of the total module marks).\nQuestions for the exam paper: Two (2) questions (Total 40 marks – 20 marks each)"
+  },
+  {
+    "objectID": "home.html",
+    "href": "home.html",
+    "title": "Teaching and Learning Materials",
+    "section": "",
+    "text": "Lecturer in charge for LT2010: Data Science for Transport and Logistics Systems (R programming section): Dr Thiyanga S. Talagala\nThese notes contain only the R Programming and Data Analysis portion of LT2010: Data Science for Transport and Logistics Systems.\nI’ll be conducting four lectures in total, spread across 12 hours. They’ll be named TT-Lecture 01, TT-Lecture 02, TT-Lecture 03, and TT-Lecture 04."
+  },
+  {
+    "objectID": "home.html#pre-requisite-for-tt-lecture-01",
+    "href": "home.html#pre-requisite-for-tt-lecture-01",
+    "title": "Teaching and Learning Materials",
+    "section": "Pre-requisite for TT-Lecture 01",
+    "text": "Pre-requisite for TT-Lecture 01\nClick here to view the task you need to complete before TT-Lecture 01"
+  },
+  {
+    "objectID": "home.html#tt-lecture-1",
+    "href": "home.html#tt-lecture-1",
+    "title": "Teaching and Learning Materials",
+    "section": "TT-Lecture 1",
+    "text": "TT-Lecture 1\nDate: September 8, 2025\nTime: 1.15pm - 4.15pm\nZoom link: available on moodle"
+  },
+  {
+    "objectID": "home.html#tt-lecture-2",
+    "href": "home.html#tt-lecture-2",
+    "title": "Teaching and Learning Materials",
+    "section": "TT-Lecture 2",
+    "text": "TT-Lecture 2"
+  },
+  {
+    "objectID": "home.html#tt-lecture-3",
+    "href": "home.html#tt-lecture-3",
+    "title": "Teaching and Learning Materials",
+    "section": "TT-Lecture 3",
+    "text": "TT-Lecture 3"
+  },
+  {
+    "objectID": "home.html#tt-lecture-4",
+    "href": "home.html#tt-lecture-4",
+    "title": "Teaching and Learning Materials",
+    "section": "TT-Lecture 4",
+    "text": "TT-Lecture 4"
+  },
+  {
+    "objectID": "prerequisite.html",
+    "href": "prerequisite.html",
+    "title": "Pre-requisite for TT-Lecture 01",
+    "section": "",
+    "text": "Before the R Programming lecture, please install the following software:\n\nR\nRStudio\n\nIf you are a Windows user, you will also need to install an additional software package: Rtools.\nClick here to view R and RStudio installation guide\nNote:\n\nPlease ensure that you install R before installing RStudio.\nAfter installing both R and RStudio, double-click the RStudio icon to open it. In the console, type the following command:\n\nR.version.string\nPress Enter, and note down the displayed R version in your notebook.\n\nTo install Rtools\n\nDownload Rtools from here https://cran.r-project.org/bin/windows/Rtools/\nDownload the correct Rtools installer for your R version from the official Comprehensive R Archive Network (CRAN) page.\n\nFor example:\n\nIf your R version is 4.5.x, download Rtools45quarto render\n\n\n\nIf your R version is 4.4.x, download Rtools44\nIf your R version is 4.3.x, download Rtools43\nIf your R version is 4.2.x, download Rtools42\nIf your R version is 4.0–4.1.x, download Rtools40\n\n\nRun the downloaded .exe file and follow the installer prompts, typically accepting the default options and installation directory."
+  }
+]

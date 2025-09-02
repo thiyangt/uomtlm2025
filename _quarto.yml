@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "LT2010 - Data Science for Transport and Logistics Systems - Intake 23 (University of Moratuwa)"

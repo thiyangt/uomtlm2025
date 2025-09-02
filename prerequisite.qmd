@@ -32,7 +32,7 @@ To install **Rtools**
 
 For example:
 
--   If your R version is 4.5.x, download Rtools45
+-   If your R version is 4.5.x, download Rtools45quarto render
 
 <!-- -->
 
