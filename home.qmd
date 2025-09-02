@@ -1,0 +1,40 @@
+---
+title: "Teaching and Learning Materials"
+---
+
+These notes contain only the R Programming and Data Analysis portion of LT2010: Data Science for Transport and Logistics Systems.
+
+## Pre-requisite for TT-Lecture 01
+
+Before the R Programming lecture, please install the following software:
+
+i. **R**
+
+ii. **RStudio**
+
+If you are a Windows user, you will also need to install an additional software package: **Rtools**.
+
+[Click here to view R and RStudio installation guide](https://r4fun.netlify.app/blog/topic1/)
+
+To install **Rtools**
+
+1. Download Rtools from here [https://cran.r-project.org/bin/windows/Rtools/](https://cran.r-project.org/bin/windows/Rtools/)
+
+## TT-Lecture 1
+
+Date: September 8, 2025
+
+Time: 1.15pm - 4.15pm
+
+Zoom link: available on moodle
+
+
+
+
+## TT-Lecture 2
+
+
+## TT-Lecture 3
+
+
+## TT-Lecture 4

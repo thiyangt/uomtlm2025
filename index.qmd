@@ -1,0 +1,33 @@
+---
+title: "About"
+---
+
+## About the degree programme and the unit
+
+**Department:** Department of Transport Management and Logistics Engineering (TMLE), Faculty of Engineering.
+
+**Degree Program:** BSc Engineering (Hons ) in Transport Management and Logistics Engineering.
+
+**Module Code and Title:** LT 2010 - Data Science for Transport & Logistics Systems.
+
+**Semester:** 03 (out of 8 semesters).
+
+**Credits:** 4 credits.
+
+**No of Students:** 87
+
+## Lesson plan
+
+-   **Start on:** 8^th^ September 2025.
+
+-   **End on:** 29^th^ September 2025.
+
+-   **No.** **of Lectures:** 4 (can be adjusted if more is needed)
+
+-   **Lecture time:** Monday afternoon (1.15 pm – 4.15 pm).
+
+-   **Type:** Online via Zoom
+
+-   **Continuous Assignments:** One (1) individual assignment on R programming (this accounts for 10% of the total module marks).
+
+-   **Questions for the exam paper:** Two (2) questions (Total 40 marks – 20 marks each)
