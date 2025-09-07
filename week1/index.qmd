@@ -27,3 +27,92 @@ format:
 
 - The latest R version 4.5.1 (Great Square Root) has been released on 2025-06-13
 
+---
+
+# Why R?
+
+- Free to use
+
+- Open-source nature
+
+- Transparency
+
+- No vendor lock-in
+
+- Rapid response to trends
+
+---
+
+## What is RStudio?
+
+- RStudio is an Integrated Development Environment (IDE) for R.
+
+- While you can run R in a basic console, RStudio provides powerful tools to make coding easier, faster, and more organized.
+
+---
+## R vs RStudio
+
+"If R were **an airplane**, RStudio would be **the airport**, providing many, many supporting services that make it easier for you, the pilot, to take off and go to awesome places. Sure, you can fly an airplane without an airport, but having those runways and supporting infrastructure is a game-changer." 
+
+Julie Lowndes
+
+
+## R is the language, and RStudio is the friendly environment that helps you work with R more efficiently.
+
+# Let's create a project to work
+
+## Double click RStudio icon
+
+![](rstudio.png)
+
+## Why you see "64-bit or 32-bit" message
+
+On some systems, especially Windows, you might see a message asking whether to start R in 32-bit or 64-bit mode.
+
+
+R comes in two versions:
+
+- 32-bit R → Older version, works on older computers and systems.
+
+- 64-bit R → Modern version, supports larger amounts of memory (RAM), faster for big data, and is the standard today.
+
+When you launch RStudio, it tries to detect which version of R to run.
+
+
+
+## Which one should you choose?
+
+If your computer is modern (most are), choose 64-bit R.
+
+It can handle large datasets.
+
+It’s faster and more stable for most analyses.
+
+## Use 32-bit R if:
+
+  - You are on an old computer (less than 4 GB RAM).
+
+  - You need compatibility with very old packages that only support 32-bit.
+  
+## On some systems, especially Windows, you might see a message asking whether to start R in 32-bit or 64-bit mode.
+
+In-class demo
+
+Reading - [Sections 1.8 - 1.11](https://thiyangt.github.io/rbook/intro.html)
+
+## In-Class Demo & Discussion Topics
+
+Exploring the RStudio panes
+
+Creating a new script file
+
+Customizing the appearance of RStudio panes
+
+Understanding the command prompt
+
+Typing and running basic R code
+
+Creating a new project
+
+Saving and managing a project
+

@@ -1,5 +1,54 @@
 [
   {
+    "objectID": "week1/index.html#what-is-rstudio",
+    "href": "week1/index.html#what-is-rstudio",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "What is RStudio?",
+    "text": "What is RStudio?\n\nRStudio is an Integrated Development Environment (IDE) for R.\nWhile you can run R in a basic console, RStudio provides powerful tools to make coding easier, faster, and more organized."
+  },
+  {
+    "objectID": "week1/index.html#r-vs-rstudio",
+    "href": "week1/index.html#r-vs-rstudio",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "R vs RStudio",
+    "text": "R vs RStudio\n“If R were an airplane, RStudio would be the airport, providing many, many supporting services that make it easier for you, the pilot, to take off and go to awesome places. Sure, you can fly an airplane without an airport, but having those runways and supporting infrastructure is a game-changer.”\nJulie Lowndes"
+  },
+  {
+    "objectID": "week1/index.html#r-is-the-language-and-rstudio-is-the-friendly-environment-that-helps-you-work-with-r-more-efficiently.",
+    "href": "week1/index.html#r-is-the-language-and-rstudio-is-the-friendly-environment-that-helps-you-work-with-r-more-efficiently.",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "R is the language, and RStudio is the friendly environment that helps you work with R more efficiently.",
+    "text": "R is the language, and RStudio is the friendly environment that helps you work with R more efficiently."
+  },
+  {
+    "objectID": "week1/index.html#double-click-rstudio-icon",
+    "href": "week1/index.html#double-click-rstudio-icon",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Double click RStudio icon",
+    "text": "Double click RStudio icon"
+  },
+  {
+    "objectID": "week1/index.html#why-you-see-64-bit-or-32-bit-message",
+    "href": "week1/index.html#why-you-see-64-bit-or-32-bit-message",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Why you see “64-bit or 32-bit” message",
+    "text": "Why you see “64-bit or 32-bit” message\nOn some systems, especially Windows, you might see a message asking whether to start R in 32-bit or 64-bit mode.\nR comes in two versions:\n\n32-bit R → Older version, works on older computers and systems.\n64-bit R → Modern version, supports larger amounts of memory (RAM), faster for big data, and is the standard today.\n\nWhen you launch RStudio, it tries to detect which version of R to run."
+  },
+  {
+    "objectID": "week1/index.html#which-one-should-you-choose",
+    "href": "week1/index.html#which-one-should-you-choose",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Which one should you choose?",
+    "text": "Which one should you choose?\nIf your computer is modern (most are), choose 64-bit R.\nIt can handle large datasets.\nIt’s faster and more stable for most analyses."
+  },
+  {
+    "objectID": "week1/index.html#use-32-bit-r-if",
+    "href": "week1/index.html#use-32-bit-r-if",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Use 32-bit R if:",
+    "text": "Use 32-bit R if:\n\nYou are on an old computer (less than 4 GB RAM).\nYou need compatibility with very old packages that only support 32-bit."
+  },
+  {
     "objectID": "prerequisite.html",
     "href": "prerequisite.html",
     "title": "Pre-requisite for TT-Lecture 01",
@@ -75,5 +124,19 @@
     "title": "Pre-requisite for TT-Lecture 01",
     "section": "",
     "text": "Before the R Programming lecture, please install the following software:\n\nR\nRStudio\n\nIf you are a Windows user, you will also need to install an additional software package: Rtools.\nClick here to view R and RStudio installation guide\nNote:\n\nPlease ensure that you install R before installing RStudio.\nAfter installing both R and RStudio, double-click the RStudio icon to open it. In the console, type the following command:\n\nR.version.string\nPress Enter, and note down the displayed R version in your notebook.\n\nTo install Rtools\n\nDownload Rtools from here https://cran.r-project.org/bin/windows/Rtools/\nDownload the correct Rtools installer for your R version from the official Comprehensive R Archive Network (CRAN) page.\n\nFor example:\n\nIf your R version is 4.4.x, download Rtools44\nIf your R version is 4.3.x, download Rtools43\nIf your R version is 4.2.x, download Rtools42\nIf your R version is 4.0–4.1.x, download Rtools40\n\n\nRun the downloaded .exe file and follow the installer prompts, typically accepting the default options and installation directory."
+  },
+  {
+    "objectID": "week1/index.html#on-some-systems-especially-windows-you-might-see-a-message-asking-whether-to-start-r-in-32-bit-or-64-bit-mode.",
+    "href": "week1/index.html#on-some-systems-especially-windows-you-might-see-a-message-asking-whether-to-start-r-in-32-bit-or-64-bit-mode.",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "On some systems, especially Windows, you might see a message asking whether to start R in 32-bit or 64-bit mode.",
+    "text": "On some systems, especially Windows, you might see a message asking whether to start R in 32-bit or 64-bit mode.\nIn-class demo\nReading - Sections 1.8 - 1.11"
+  },
+  {
+    "objectID": "week1/index.html#in-class-demo-discussion-topics",
+    "href": "week1/index.html#in-class-demo-discussion-topics",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "In-Class Demo & Discussion Topics",
+    "text": "In-Class Demo & Discussion Topics\nExploring the RStudio panes\nCreating a new script file\nCustomizing the appearance of RStudio panes\nUnderstanding the command prompt\nTyping and running basic R code\nCreating a new project\nSaving and managing a project"
   }
 ]
