@@ -18,9 +18,17 @@ Date: September 8, 2025
 
 Time: 1.15pm - 4.15pm
 
-Zoom link: available on moodle
+Zoom link: available on Moodle
 
+**Slides-TT1:**
 
+[Click here](/week1/index.html)
+
+**Reading and Exercises:**
+
+[Chapter 1](https://thiyangt.github.io/rbook/intro.html)
+
+[Chapter 2- 2.3 and 2.4](https://thiyangt.github.io/rbook/chap2.html)
 
 
 ## TT-Lecture 2

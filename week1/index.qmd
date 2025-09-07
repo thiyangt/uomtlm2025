@@ -1,0 +1,29 @@
+---
+title: "Introduction to R, RStudio and R Programming Basics"
+subtitle: ""
+author: "Dr Thiyanga S. Talagala"
+format:
+  revealjs:
+    width: 1280
+    height: 720
+    margin: 0.1
+    theme: [simple, custom.scss]
+    transition: slide
+    background-transition: fade
+    slide-number: true
+    show-slide-number: all
+    title-slide-attributes: 
+      data-background-color: "#312745"
+      data-background-image: none
+---
+
+### What is R? 
+
+- R is a software environment for statistical computing and graphics
+
+- Language designers: **R**oss Ihaka and **R**obert Gentleman at the University of Auckland, New Zealand
+
+- Parent language: S
+
+- The latest R version 4.5.1 (Great Square Root) has been released on 2025-06-13
+
