@@ -67,14 +67,14 @@
     "href": "week1/index.html#r-console",
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "R Console",
-    "text": "R Console\n\n7+1\n\n[1] 8\n\n\n\nrnorm(10) \n\n [1] -1.59636970 -0.07109692  1.56334362  0.21565757  0.02922218  0.73111880\n [7] -0.66200793 -1.32557074  0.71802737 -0.07351396"
+    "text": "R Console\n\n7+1\n\n[1] 8\n\n\n\nrnorm(10) \n\n [1]  0.6731352 -1.1783858 -0.4994614  0.3772338  0.6108995 -1.3818721\n [7] -1.2687201 -0.3790679  0.4949037  0.5761529"
   },
   {
     "objectID": "week1/index.html#variable-assignment",
     "href": "week1/index.html#variable-assignment",
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "Variable assignment",
-    "text": "Variable assignment\n\na &lt;- rnorm(10)\na\n\n [1]  0.80149948 -0.06921399 -1.40137466 -0.17285598 -0.98339188 -1.96072544\n [7]  1.40643592  0.92855910  1.11007212  1.11018861\n\n\n\nb &lt;- a*100\nb\n\n [1]   80.149948   -6.921399 -140.137466  -17.285598  -98.339188 -196.072544\n [7]  140.643592   92.855910  111.007212  111.018861"
+    "text": "Variable assignment\n\na &lt;- rnorm(10)\na\n\n [1] -0.42827863 -0.47307975  0.92660439 -0.48247653 -0.85580382 -0.20558957\n [7] -1.50694698  0.05688684 -0.10966748 -2.10518400\n\n\n\nb &lt;- a*100\nb\n\n [1]  -42.827863  -47.307975   92.660439  -48.247653  -85.580382  -20.558957\n [7] -150.694698    5.688684  -10.966748 -210.518400"
   },
   {
     "objectID": "week1/index.html#data-permanency",
@@ -95,7 +95,7 @@
     "href": "week1/index.html#comment-your-code",
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "Comment your code",
-    "text": "Comment your code\n\nEach line of a comment should begin with the comment symbol and a single space: # .\n\n\nrnorm(10) # This is a comment \n\n [1]  1.15248425 -1.23547304  0.04156500 -0.05038478 -0.44256784 -0.88474313\n [7]  0.04908637 -0.41025697 -0.46232188  0.32172542\n\nsum(1:10) # 1+2\n\n[1] 55"
+    "text": "Comment your code\n\nEach line of a comment should begin with the comment symbol and a single space: # .\n\n\nrnorm(10) # This is a comment \n\n [1] -0.6717752 -1.4043744  0.4913580  0.4142233  1.1976607 -1.1510636\n [7]  0.6801533  0.1400226  0.2645560  0.3453944\n\nsum(1:10) # 1+2\n\n[1] 55"
   },
   {
     "objectID": "week1/index.html#objects-in-r",
@@ -250,6 +250,13 @@
     "title": "Teaching and Learning Materials",
     "section": "",
     "text": "Lecturer in charge for LT2010: Data Science for Transport and Logistics Systems (R programming section): Dr Thiyanga S. Talagala\nThese notes contain only the R Programming and Data Analysis portion of LT2010: Data Science for Transport and Logistics Systems.\nI’ll be conducting four lectures in total, spread across 12 hours. They’ll be named TT-Lecture 01, TT-Lecture 02, TT-Lecture 03, and TT-Lecture 04."
+  },
+  {
+    "objectID": "home.html#link-to-the-moodel",
+    "href": "home.html#link-to-the-moodel",
+    "title": "Teaching and Learning Materials",
+    "section": "Link to the moodel",
+    "text": "Link to the moodel\nClick here"
   },
   {
     "objectID": "home.html#pre-requisite-for-tt-lecture-01",

@@ -8,6 +8,10 @@ These notes contain only the R Programming and Data Analysis portion of LT2010: 
 
 I’ll be conducting four lectures in total, spread across 12 hours. They’ll be named TT-Lecture 01, TT-Lecture 02, TT-Lecture 03, and TT-Lecture 04.
 
+## Link to the moodel
+
+[Click here](https://online.uom.lk/login/index.php)
+
 ## Pre-requisite for TT-Lecture 01
 
 Click [here](/week0/index.html) to view the task you need to complete before TT-Lecture 01
@@ -30,11 +34,8 @@ Zoom link: available on Moodle
 
 [Chapter 2- 2.3 and 2.4](https://thiyangt.github.io/rbook/chap2.html)
 
-
 ## TT-Lecture 2
 
-
 ## TT-Lecture 3
-
 
 ## TT-Lecture 4
