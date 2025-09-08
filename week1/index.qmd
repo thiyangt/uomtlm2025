@@ -17,45 +17,43 @@ format:
       data-background-image: none
 ---
 
-### What is R? 
+### What is R?
 
-- R is a software environment for statistical computing and graphics
+-   R is a software environment for statistical computing and graphics
 
-- Language designers: **R**oss Ihaka and **R**obert Gentleman at the University of Auckland, New Zealand
+-   Language designers: **R**oss Ihaka and **R**obert Gentleman at the University of Auckland, New Zealand
 
-- Parent language: S
+-   Parent language: S
 
-- The latest R version 4.5.1 (Great Square Root) has been released on 2025-06-13
+-   The latest R version 4.5.1 (Great Square Root) has been released on 2025-06-13
 
----
+------------------------------------------------------------------------
 
 # Why R?
 
-- Free to use
+-   Free to use
 
-- Open-source nature
+-   Open-source nature
 
-- Transparency
+-   Transparency
 
-- No vendor lock-in
+-   No vendor lock-in
 
-- Rapid response to trends
+-   Rapid response to trends
 
----
+------------------------------------------------------------------------
 
 ## What is RStudio?
 
-- RStudio is an Integrated Development Environment (IDE) for R.
+-   RStudio is an Integrated Development Environment (IDE) for R.
 
-- While you can run R in a basic console, RStudio provides powerful tools to make coding easier, faster, and more organized.
+-   While you can run R in a basic console, RStudio provides powerful tools to make coding easier, faster, and more organized.
 
----
 ## R vs RStudio
 
-"If R were **an airplane**, RStudio would be **the airport**, providing many, many supporting services that make it easier for you, the pilot, to take off and go to awesome places. Sure, you can fly an airplane without an airport, but having those runways and supporting infrastructure is a game-changer." 
+"If R were **an airplane**, RStudio would be **the airport**, providing many, many supporting services that make it easier for you, the pilot, to take off and go to awesome places. Sure, you can fly an airplane without an airport, but having those runways and supporting infrastructure is a game-changer."
 
 Julie Lowndes
-
 
 ## R is the language, and RStudio is the friendly environment that helps you work with R more efficiently.
 
@@ -69,16 +67,13 @@ Julie Lowndes
 
 On some systems, especially Windows, you might see a message asking whether to start R in 32-bit or 64-bit mode.
 
-
 R comes in two versions:
 
-- 32-bit R → Older version, works on older computers and systems.
+-   32-bit R → Older version, works on older computers and systems.
 
-- 64-bit R → Modern version, supports larger amounts of memory (RAM), faster for big data, and is the standard today.
+-   64-bit R → Modern version, supports larger amounts of memory (RAM), faster for big data, and is the standard today.
 
 When you launch RStudio, it tries to detect which version of R to run.
-
-
 
 ## Which one should you choose?
 
@@ -90,15 +85,9 @@ It’s faster and more stable for most analyses.
 
 ## Use 32-bit R if:
 
-  - You are on an old computer (less than 4 GB RAM).
+-   You are on an old computer (less than 4 GB RAM).
 
-  - You need compatibility with very old packages that only support 32-bit.
-  
-## On some systems, especially Windows, you might see a message asking whether to start R in 32-bit or 64-bit mode.
-
-In-class demo
-
-Reading - [Sections 1.8 - 1.11](https://thiyangt.github.io/rbook/intro.html)
+-   You need compatibility with very old packages that only support 32-bit.
 
 ## In-Class Demo & Discussion Topics
 
@@ -115,4 +104,509 @@ Typing and running basic R code
 Creating a new project
 
 Saving and managing a project
+
+## Extra Reading
+
+[Sections 1.8 - 1.11](https://thiyangt.github.io/rbook/intro.html)
+
+## R Console
+
+```{r}
+#| echo: true
+7+1
+
+```
+
+```{r}
+#| echo: true
+rnorm(10) 
+
+```
+
+## Variable assignment
+
+```{r}
+#| echo: true
+a <- rnorm(10)
+a
+```
+
+```{r}
+#| echo: true
+b <- a*100
+b
+```
+
+
+
+## Data permanency
+
+- `ls()` can be used to display the names of the objects which are currently stored within R.
+
+- The collection of objects currently stored is called the **workspace**
+
+```{r}
+#| echo: true
+ls()
+
+```
+
+##
+
+- To remove objects the function `rm` is available
+
+    - remove all objects `rm(list=ls())`
+    
+    - remove specific objects `rm(x, y, z)`
+    
+    
+```{r}
+#| echo: true
+#| eval: false
+rm(a)
+ls()
+```
+
+```{r}
+#| echo: true
+#| eval: false
+rm(list=ls())
+ls()
+```
+
+
+
+## Comment your code
+
+- Each line of a comment should begin with the comment symbol and a single space: # . 
+
+```{r}
+#| echo: true
+rnorm(10) # This is a comment 
+sum(1:10) # 1+2
+```
+
+## Objects in R
+
+- R is an [object-oriented language](https://en.wikipedia.org/wiki/Object-oriented_programming).
+
+
+- An object in R is anything (data structures, functions, etc., that can be assigned to a variable).
+
+    - **Data structures** are the ways of arranging data.
+
+    - **Functions** tell R to do something.
+
+## Getting help with functions and features
+
+
+### Method 1
+
+```r
+help(rnorm)
+```
+
+- For a feature specified by special characters such as `for`, `if`, `[[`
+
+```r
+help("[[")
+```
+
+- Search the help files for a word or phrase.
+
+```r
+help.search(‘weighted mean’) 
+```
+
+### Method 2
+
+```r
+?rnorm
+```
+
+```r
+??rnorm
+```
+
+# Data Structures
+
+## Vectors
+
+- Vectors are one-dimensional arrays that can hold numeric data, character data, or logical data.
+
+- Combine function c() is used to form the vector.
+
+- Data in a vector must only be one type or mode (numeric, character, or logical). You can’t mix modes in the same vector.
+
+## Vector assignment
+
+**Syntax**
+
+```r
+vector_name <- c(element1, element2, element3)
+
+```
+
+```r
+x <- c(5, 6, 3, 1 , 100)
+```
+
+- assignment operator ('<-'), '=' can be used as an alternative.
+
+- `c()` function
+
+What will be the output of the following code?
+
+```r
+y <- c(x, 500, 600)
+```
+
+
+
+
+
+## Types and tests with vectors
+
+
+```{r}
+#| echo: true
+first_vec <- c(10, 20, 50, 70)
+second_vec <- c("Jan", "Feb", "March", "April")
+third_vec <- c(TRUE, FALSE, TRUE, TRUE)
+fourth_vec <- c(10L, 20L, 50L, 70L)
+```
+
+
+To check if it is a 
+
+- vector: `is.vector()`
+
+```{r}
+#| echo: true
+is.vector(first_vec)
+```
+
+
+- character vector: `is.character()`
+
+```{r}
+#| echo: true
+is.character(first_vec)
+```
+
+## 
+
+- double: `is.double()`
+
+```{r}
+#| echo: true
+is.double(first_vec)
+```
+
+
+- integer: `is.integer()`
+
+```{r}
+#| echo: true
+is.integer(first_vec)
+```
+
+- logical: `is.logical()`
+
+```{r}
+#| echo: true
+is.logical(first_vec)
+```
+
+- length
+
+```{r}
+#| echo: true
+length(first_vec)
+```
+
+
+## Coercion
+
+Vectors must be homogeneous. When you attempt to combine different types they will be coerced to the most flexible type so that every element in the vector is of the same type.
+
+Order from least to most flexible
+
+`logical` --> `integer` --> `double` --> `character`
+
+```{r}
+#| echo: true
+a <- c(3.1, 2L, 3, 4, "GPA") 
+typeof(a) 
+```
+
+```{r}
+#| echo: true
+anew <- c(3.1, 2L, 3, 4)
+typeof(anew) 
+```
+
+
+## Explicit coercion
+
+Vectors can be explicitly coerced from one class to another using the `as.*` functions, if available. For example, `as.character`, `as.numeric`, `as.integer`, and `as.logical`.
+
+```{r}
+#| echo: true
+vec1 <- c(TRUE, FALSE, TRUE, TRUE)
+typeof(vec1)
+
+vec2 <- as.integer(vec1)
+typeof(vec2)
+vec2
+```
+
+Why does the below output NAs?
+
+```{r}
+#| echo: true
+x <- c("a", "b", "c")
+as.numeric(x)
+```
+
+##
+
+```{r}
+#| echo: true
+x1 <- 1:3
+x2 <- c(10, 20, 30)
+combinedx1x2 <- c(x1, x2)
+combinedx1x2 
+```
+
+
+
+```{r}
+#| echo: true
+class(x1)
+class(x2)
+class(combinedx1x2)
+
+```
+
+
+- If you combine a numeric vector and a character vector 
+
+```{r}
+#| echo: true
+y1 <- c(1, 2, 3)
+y2 <- c("a", "b", "c")
+c(y1, y2)
+
+```
+
+
+## Name elements in a vector
+
+You can name elements in a vector in different ways. We will learn two of them.
+
+1. When creating it
+
+```{r}
+#| echo: true
+x1 <- c(a=1991, b=1992, c=1993)
+x1
+```
+
+2. Modifying the names of an existing vector
+
+```{r}
+#| echo: true
+x2 <- c(1, 5, 10)
+names(x2) <- c("a", "b", "b")
+x2
+```
+
+Note that the names do not have to be unique. 
+
+
+## To remove names of a vector
+
+Method 1
+
+```{r}
+#| echo: true
+unname(x1); x1
+```
+
+Method 2
+
+```{r}
+#| echo: true
+names(x2) <- NULL; x2
+```
+
+.red[What will be the output of the following code?]
+
+```r
+v <- c(1, 2, 3)
+names(v) <- c("a")
+v
+```
+
+
+## Simplifying vector creation
+
+- colon `:` produce regular spaced ascending or descending sequences.
+
+```{r}
+#| echo: true
+ 10:16
+
+-0.5:8.5
+
+```
+
+##
+
+- sequence: `seq(initial_value, final_value, increment)`
+
+```{r}
+#| echo: true
+seq(1,11)
+
+seq(1, 11, length.out=5)
+
+seq(0, 11, by=2)
+```
+
+##
+
+- repeats `rep()` 
+
+```{r}
+#| echo: true
+rep(9, 5)
+
+rep(1:4, 2)
+
+rep(1:4, each=2) # each element is repeated twice
+
+rep(1:4, times=2) # whole sequence is repeated twice
+
+rep(1:4, each=2, times=3)
+
+rep(1:4, 1:4)
+
+rep(1:4, c(4, 1, 4, 2))
+
+```
+
+
+
+## Logical operators
+
+```{r}
+#| echo: true
+c(1, 2, 3) == c(10, 20, 3)
+```
+
+```{r}
+#| echo: true
+c(1, 2, 3) != c(10, 20, 3)
+```
+
+```{r}
+#| echo: true
+1:5 > 3
+```
+
+```{r}
+#| echo: true
+1:5 < 3
+```
+
+- `<=` less than or equal to
+
+- `>=` greater than or equal to
+
+- `|` or
+
+- `&` and
+
+
+
+## Operators: `%in%` - in the set
+
+```{r}
+#| echo: true
+a <- c(1, 2, 3)
+b <- c(1, 10, 3)
+a%in%b
+```
+
+```{r}
+#| echo: true
+x <- 1:10
+y <- 1:3
+x
+y
+x %in% y
+
+```
+
+```{r}
+#| echo: true
+y %in% x
+```
+
+
+## Vector arithmetic
+
+
+- operations are performed element by element. 
+
+```{r}
+#| echo: true
+c(10, 100, 100) + 2 # two is added to every element in the vector
+```
+
+
+- operations between two vectors
+
+```{r}
+#| echo: true
+v1 <- c(1, 2, 3); v2 <- c(10, 100, 1000)
+v1 + v2
+```
+
+
+Add two vectors of unequal length
+
+```{r}
+#| echo: true
+longvec <- seq(10, 100, length=10); shortvec <- c(1, 2, 3, 4, 5)
+
+shortvec + longvec
+
+```
+
+
+## What will be the output of the following code?
+
+```r
+first <- c(1, 2, 3, 4); second <- c(10, 100)
+first * second
+```
+
+## Missing values
+
+Use `NA` or `NaN` to place a missing value in a vector.
+
+```{r}
+#| echo: true
+z <- c(10, 101, 2, 3, NA)
+is.na(z)
+```
+
+# Installing packages - in class demo
+
+## Packages
+
+tidyverse
 

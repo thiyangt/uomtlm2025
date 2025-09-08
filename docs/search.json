@@ -138,5 +138,187 @@
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "In-Class Demo & Discussion Topics",
     "text": "In-Class Demo & Discussion Topics\nExploring the RStudio panes\nCreating a new script file\nCustomizing the appearance of RStudio panes\nUnderstanding the command prompt\nTyping and running basic R code\nCreating a new project\nSaving and managing a project"
+  },
+  {
+    "objectID": "week1/index.html#r-console",
+    "href": "week1/index.html#r-console",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "R Console",
+    "text": "R Console\n\n7+1\n\n[1] 8\n\n\n\nrnorm(10) \n\n [1]  1.09555756 -0.77931821 -0.59604874 -0.04167406  0.11981877 -1.37226189\n [7] -1.58929232 -0.07691558 -0.35001928 -0.68529848"
+  },
+  {
+    "objectID": "week1/index.html#variable-assignment",
+    "href": "week1/index.html#variable-assignment",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Variable assignment",
+    "text": "Variable assignment\n\na &lt;- rnorm(10)\na\n\n [1]  0.51872848  0.34418416 -0.41866830 -0.33390045 -2.22253375  1.80688828\n [7] -0.29682289 -1.86409142 -0.15364095 -0.07808551\n\n\n\nb &lt;- a*100\nb\n\n [1]   51.872848   34.418416  -41.866830  -33.390045 -222.253375  180.688828\n [7]  -29.682289 -186.409142  -15.364095   -7.808551"
+  },
+  {
+    "objectID": "week1/index.html#extra-reading",
+    "href": "week1/index.html#extra-reading",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Extra Reading",
+    "text": "Extra Reading\nSections 1.8 - 1.11"
+  },
+  {
+    "objectID": "week1/index.html#data-permanency",
+    "href": "week1/index.html#data-permanency",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Data permanency",
+    "text": "Data permanency\n\nls() can be used to display the names of the objects which are currently stored within R.\nThe collection of objects currently stored is called the workspace\n\n\nls()\n\n[1] \"a\" \"b\""
+  },
+  {
+    "objectID": "week1/index.html#comment-your-code",
+    "href": "week1/index.html#comment-your-code",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Comment your code",
+    "text": "Comment your code\n\nEach line of a comment should begin with the comment symbol and a single space: # .\n\n\nrnorm(10) # This is a comment \n\n [1]  1.2634227 -0.8370890 -1.5308638  1.1522812 -2.7160005  1.7782910\n [7] -1.0047555  0.6925138 -0.8641833 -0.9873725\n\nsum(1:10) # 1+2\n\n[1] 55"
+  },
+  {
+    "objectID": "week1/index.html#objects-in-r",
+    "href": "week1/index.html#objects-in-r",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Objects in R",
+    "text": "Objects in R\n\nR is an object-oriented language.\nAn object in R is anything (data structures, functions, etc., that can be assigned to a variable).\n\nData structures are the ways of arranging data.\nFunctions tell R to do something."
+  },
+  {
+    "objectID": "week1/index.html#getting-help-with-functions-and-features",
+    "href": "week1/index.html#getting-help-with-functions-and-features",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Getting help with functions and features",
+    "text": "Getting help with functions and features\nMethod 1\nhelp(rnorm)\n\nFor a feature specified by special characters such as for, if, [[\n\nhelp(\"[[\")\n\nSearch the help files for a word or phrase.\n\nhelp.search(‘weighted mean’) \nMethod 2\n?rnorm\n??rnorm"
+  },
+  {
+    "objectID": "week1/index.html#vectors",
+    "href": "week1/index.html#vectors",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Vectors",
+    "text": "Vectors\n\nVectors are one-dimensional arrays that can hold numeric data, character data, or logical data.\nCombine function c() is used to form the vector.\nData in a vector must only be one type or mode (numeric, character, or logical). You can’t mix modes in the same vector."
+  },
+  {
+    "objectID": "week1/index.html#vector-assignment",
+    "href": "week1/index.html#vector-assignment",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Vector assignment",
+    "text": "Vector assignment\nSyntax\nvector_name &lt;- c(element1, element2, element3)\nx &lt;- c(5, 6, 3, 1 , 100)\n\nassignment operator (‘&lt;-’), ‘=’ can be used as an alternative.\nc() function\n\nWhat will be the output of the following code?\ny &lt;- c(x, 500, 600)"
+  },
+  {
+    "objectID": "week1/index.html#types-and-tests-with-vectors",
+    "href": "week1/index.html#types-and-tests-with-vectors",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Types and tests with vectors",
+    "text": "Types and tests with vectors\n\nfirst_vec &lt;- c(10, 20, 50, 70)\nsecond_vec &lt;- c(\"Jan\", \"Feb\", \"March\", \"April\")\nthird_vec &lt;- c(TRUE, FALSE, TRUE, TRUE)\nfourth_vec &lt;- c(10L, 20L, 50L, 70L)\n\nTo check if it is a\n\nvector: is.vector()\n\n\nis.vector(first_vec)\n\n[1] TRUE\n\n\n\ncharacter vector: is.character()\n\n\nis.character(first_vec)\n\n[1] FALSE"
+  },
+  {
+    "objectID": "week1/index.html#section",
+    "href": "week1/index.html#section",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "",
+    "text": "To remove objects the function rm is available\n\nremove all objects rm(list=ls())\nremove specific objects rm(x, y, z)\n\n\n\nrm(a)\nls()\n\n\nrm(list=ls())\nls()"
+  },
+  {
+    "objectID": "week1/index.html#coercion",
+    "href": "week1/index.html#coercion",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Coercion",
+    "text": "Coercion\nVectors must be homogeneous. When you attempt to combine different types they will be coerced to the most flexible type so that every element in the vector is of the same type.\nOrder from least to most flexible\nlogical –&gt; integer –&gt; double –&gt; character\n\na &lt;- c(3.1, 2L, 3, 4, \"GPA\") \ntypeof(a) \n\n[1] \"character\"\n\n\n\nanew &lt;- c(3.1, 2L, 3, 4)\ntypeof(anew) \n\n[1] \"double\""
+  },
+  {
+    "objectID": "week1/index.html#explicit-coercion",
+    "href": "week1/index.html#explicit-coercion",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Explicit coercion",
+    "text": "Explicit coercion\nVectors can be explicitly coerced from one class to another using the as.* functions, if available. For example, as.character, as.numeric, as.integer, and as.logical.\n\nvec1 &lt;- c(TRUE, FALSE, TRUE, TRUE)\ntypeof(vec1)\n\n[1] \"logical\"\n\nvec2 &lt;- as.integer(vec1)\ntypeof(vec2)\n\n[1] \"integer\"\n\nvec2\n\n[1] 1 0 1 1\n\n\nWhy does the below output NAs?\n\nx &lt;- c(\"a\", \"b\", \"c\")\nas.numeric(x)\n\n[1] NA NA NA"
+  },
+  {
+    "objectID": "week1/index.html#section-1",
+    "href": "week1/index.html#section-1",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "",
+    "text": "double: is.double()\n\n\nis.double(first_vec)\n\n[1] TRUE\n\n\n\ninteger: is.integer()\n\n\nis.integer(first_vec)\n\n[1] FALSE\n\n\n\nlogical: is.logical()\n\n\nis.logical(first_vec)\n\n[1] FALSE\n\n\n\nlength\n\n\nlength(first_vec)\n\n[1] 4"
+  },
+  {
+    "objectID": "week1/index.html#name-elements-in-a-vector",
+    "href": "week1/index.html#name-elements-in-a-vector",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Name elements in a vector",
+    "text": "Name elements in a vector\nYou can name elements in a vector in different ways. We will learn two of them.\n\nWhen creating it\n\n\nx1 &lt;- c(a=1991, b=1992, c=1993)\nx1\n\n   a    b    c \n1991 1992 1993 \n\n\n\nModifying the names of an existing vector\n\n\nx2 &lt;- c(1, 5, 10)\nnames(x2) &lt;- c(\"a\", \"b\", \"b\")\nx2\n\n a  b  b \n 1  5 10 \n\n\nNote that the names do not have to be unique."
+  },
+  {
+    "objectID": "week1/index.html#to-remove-names-of-a-vector",
+    "href": "week1/index.html#to-remove-names-of-a-vector",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "To remove names of a vector",
+    "text": "To remove names of a vector\nMethod 1\n\nunname(x1); x1\n\n[1] 1991 1992 1993\n\n\n   a    b    c \n1991 1992 1993 \n\n\nMethod 2\n\nnames(x2) &lt;- NULL; x2\n\n[1]  1  5 10\n\n\n.redWhat will be the output of the following code?\nv &lt;- c(1, 2, 3)\nnames(v) &lt;- c(\"a\")\nv"
+  },
+  {
+    "objectID": "week1/index.html#simplifying-vector-creation",
+    "href": "week1/index.html#simplifying-vector-creation",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Simplifying vector creation",
+    "text": "Simplifying vector creation\n\ncolon : produce regular spaced ascending or descending sequences.\n\n\n 10:16\n\n[1] 10 11 12 13 14 15 16\n\n-0.5:8.5\n\n [1] -0.5  0.5  1.5  2.5  3.5  4.5  5.5  6.5  7.5  8.5"
+  },
+  {
+    "objectID": "week1/index.html#section-2",
+    "href": "week1/index.html#section-2",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "",
+    "text": "x1 &lt;- 1:3\nx2 &lt;- c(10, 20, 30)\ncombinedx1x2 &lt;- c(x1, x2)\ncombinedx1x2 \n\n[1]  1  2  3 10 20 30\n\n\n\nclass(x1)\n\n[1] \"integer\"\n\nclass(x2)\n\n[1] \"numeric\"\n\nclass(combinedx1x2)\n\n[1] \"numeric\"\n\n\n\nIf you combine a numeric vector and a character vector\n\n\ny1 &lt;- c(1, 2, 3)\ny2 &lt;- c(\"a\", \"b\", \"c\")\nc(y1, y2)\n\n[1] \"1\" \"2\" \"3\" \"a\" \"b\" \"c\""
+  },
+  {
+    "objectID": "week1/index.html#section-3",
+    "href": "week1/index.html#section-3",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "",
+    "text": "sequence: seq(initial_value, final_value, increment)\n\n\nseq(1,11)\n\n [1]  1  2  3  4  5  6  7  8  9 10 11\n\nseq(1, 11, length.out=5)\n\n[1]  1.0  3.5  6.0  8.5 11.0\n\nseq(0, 11, by=2)\n\n[1]  0  2  4  6  8 10"
+  },
+  {
+    "objectID": "week1/index.html#logical-operators",
+    "href": "week1/index.html#logical-operators",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Logical operators",
+    "text": "Logical operators\n\nc(1, 2, 3) == c(10, 20, 3)\n\n[1] FALSE FALSE  TRUE\n\n\n\nc(1, 2, 3) != c(10, 20, 3)\n\n[1]  TRUE  TRUE FALSE\n\n\n\n1:5 &gt; 3\n\n[1] FALSE FALSE FALSE  TRUE  TRUE\n\n\n\n1:5 &lt; 3\n\n[1]  TRUE  TRUE FALSE FALSE FALSE\n\n\n\n&lt;= less than or equal to\n&gt;= greater than or equal to\n| or\n& and"
+  },
+  {
+    "objectID": "week1/index.html#operators-in---in-the-set",
+    "href": "week1/index.html#operators-in---in-the-set",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Operators: %in% - in the set",
+    "text": "Operators: %in% - in the set\n\na &lt;- c(1, 2, 3)\nb &lt;- c(1, 10, 3)\na%in%b\n\n[1]  TRUE FALSE  TRUE\n\n\n\nx &lt;- 1:10\ny &lt;- 1:3\nx\n\n [1]  1  2  3  4  5  6  7  8  9 10\n\ny\n\n[1] 1 2 3\n\nx %in% y\n\n [1]  TRUE  TRUE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE\n\n\n\ny %in% x\n\n[1] TRUE TRUE TRUE"
+  },
+  {
+    "objectID": "week1/index.html#vector-arithmetic",
+    "href": "week1/index.html#vector-arithmetic",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Vector arithmetic",
+    "text": "Vector arithmetic\n\noperations are performed element by element.\n\n\nc(10, 100, 100) + 2 # two is added to every element in the vector\n\n[1]  12 102 102\n\n\n\noperations between two vectors\n\n\nv1 &lt;- c(1, 2, 3); v2 &lt;- c(10, 100, 1000)\nv1 + v2\n\n[1]   11  102 1003\n\n\nAdd two vectors of unequal length\n\nlongvec &lt;- seq(10, 100, length=10); shortvec &lt;- c(1, 2, 3, 4, 5)\n\nshortvec + longvec\n\n [1]  11  22  33  44  55  61  72  83  94 105"
+  },
+  {
+    "objectID": "week1/index.html#what-will-be-the-output-of-the-following-code",
+    "href": "week1/index.html#what-will-be-the-output-of-the-following-code",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "What will be the output of the following code?",
+    "text": "What will be the output of the following code?\nfirst &lt;- c(1, 2, 3, 4); second &lt;- c(10, 100)\nfirst * second"
+  },
+  {
+    "objectID": "week1/index.html#missing-values",
+    "href": "week1/index.html#missing-values",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Missing values",
+    "text": "Missing values\nUse NA or NaN to place a missing value in a vector.\n\nz &lt;- c(10, 101, 2, 3, NA)\nis.na(z)\n\n[1] FALSE FALSE FALSE FALSE  TRUE"
+  },
+  {
+    "objectID": "week1/index.html#section-4",
+    "href": "week1/index.html#section-4",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "",
+    "text": "repeats rep()\n\n\nrep(9, 5)\n\n[1] 9 9 9 9 9\n\nrep(1:4, 2)\n\n[1] 1 2 3 4 1 2 3 4\n\nrep(1:4, each=2) # each element is repeated twice\n\n[1] 1 1 2 2 3 3 4 4\n\nrep(1:4, times=2) # whole sequence is repeated twice\n\n[1] 1 2 3 4 1 2 3 4\n\nrep(1:4, each=2, times=3)\n\n [1] 1 1 2 2 3 3 4 4 1 1 2 2 3 3 4 4 1 1 2 2 3 3 4 4\n\nrep(1:4, 1:4)\n\n [1] 1 2 2 3 3 3 4 4 4 4\n\nrep(1:4, c(4, 1, 4, 2))\n\n [1] 1 1 1 1 2 3 3 3 3 4 4"
+  },
+  {
+    "objectID": "week1/index.html#packages",
+    "href": "week1/index.html#packages",
+    "title": "Introduction to R, RStudio and R Programming Basics",
+    "section": "Packages",
+    "text": "Packages\ntidyverse"
   }
 ]
