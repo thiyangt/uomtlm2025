@@ -137,13 +137,11 @@ b <- a*100
 b
 ```
 
-
-
 ## Data permanency
 
-- `ls()` can be used to display the names of the objects which are currently stored within R.
+-   `ls()` can be used to display the names of the objects which are currently stored within R.
 
-- The collection of objects currently stored is called the **workspace**
+-   The collection of objects currently stored is called the **workspace**
 
 ```{r}
 #| echo: true
@@ -151,15 +149,14 @@ ls()
 
 ```
 
-##
+## 
 
-- To remove objects the function `rm` is available
+-   To remove objects the function `rm` is available
 
-    - remove all objects `rm(list=ls())`
-    
-    - remove specific objects `rm(x, y, z)`
-    
-    
+    -   remove all objects `rm(list=ls())`
+
+    -   remove specific objects `rm(x, y, z)`
+
 ```{r}
 #| echo: true
 #| eval: false
@@ -174,11 +171,9 @@ rm(list=ls())
 ls()
 ```
 
-
-
 ## Comment your code
 
-- Each line of a comment should begin with the comment symbol and a single space: # . 
+-   Each line of a comment should begin with the comment symbol and a single space: \# .
 
 ```{r}
 #| echo: true
@@ -188,43 +183,41 @@ sum(1:10) # 1+2
 
 ## Objects in R
 
-- R is an [object-oriented language](https://en.wikipedia.org/wiki/Object-oriented_programming).
+-   R is an [object-oriented language](https://en.wikipedia.org/wiki/Object-oriented_programming).
 
+-   An object in R is anything (data structures, functions, etc., that can be assigned to a variable).
 
-- An object in R is anything (data structures, functions, etc., that can be assigned to a variable).
+    -   **Data structures** are the ways of arranging data.
 
-    - **Data structures** are the ways of arranging data.
-
-    - **Functions** tell R to do something.
+    -   **Functions** tell R to do something.
 
 ## Getting help with functions and features
 
-
 ### Method 1
 
-```r
+``` r
 help(rnorm)
 ```
 
-- For a feature specified by special characters such as `for`, `if`, `[[`
+-   For a feature specified by special characters such as `for`, `if`, `[[`
 
-```r
+``` r
 help("[[")
 ```
 
-- Search the help files for a word or phrase.
+-   Search the help files for a word or phrase.
 
-```r
+``` r
 help.search(‘weighted mean’) 
 ```
 
 ### Method 2
 
-```r
+``` r
 ?rnorm
 ```
 
-```r
+``` r
 ??rnorm
 ```
 
@@ -232,41 +225,35 @@ help.search(‘weighted mean’)
 
 ## Vectors
 
-- Vectors are one-dimensional arrays that can hold numeric data, character data, or logical data.
+-   Vectors are one-dimensional arrays that can hold numeric data, character data, or logical data.
 
-- Combine function c() is used to form the vector.
+-   Combine function c() is used to form the vector.
 
-- Data in a vector must only be one type or mode (numeric, character, or logical). You can’t mix modes in the same vector.
+-   Data in a vector must only be one type or mode (numeric, character, or logical). You can’t mix modes in the same vector.
 
 ## Vector assignment
 
 **Syntax**
 
-```r
+``` r
 vector_name <- c(element1, element2, element3)
-
 ```
 
-```r
+``` r
 x <- c(5, 6, 3, 1 , 100)
 ```
 
-- assignment operator ('<-'), '=' can be used as an alternative.
+-   assignment operator ('\<-'), '=' can be used as an alternative.
 
-- `c()` function
+-   `c()` function
 
 What will be the output of the following code?
 
-```r
+``` r
 y <- c(x, 500, 600)
 ```
 
-
-
-
-
 ## Types and tests with vectors
-
 
 ```{r}
 #| echo: true
@@ -276,18 +263,16 @@ third_vec <- c(TRUE, FALSE, TRUE, TRUE)
 fourth_vec <- c(10L, 20L, 50L, 70L)
 ```
 
+To check if it is a
 
-To check if it is a 
-
-- vector: `is.vector()`
+-   vector: `is.vector()`
 
 ```{r}
 #| echo: true
 is.vector(first_vec)
 ```
 
-
-- character vector: `is.character()`
+-   character vector: `is.character()`
 
 ```{r}
 #| echo: true
@@ -296,35 +281,33 @@ is.character(first_vec)
 
 ## 
 
-- double: `is.double()`
+-   double: `is.double()`
 
 ```{r}
 #| echo: true
 is.double(first_vec)
 ```
 
-
-- integer: `is.integer()`
+-   integer: `is.integer()`
 
 ```{r}
 #| echo: true
 is.integer(first_vec)
 ```
 
-- logical: `is.logical()`
+-   logical: `is.logical()`
 
 ```{r}
 #| echo: true
 is.logical(first_vec)
 ```
 
-- length
+-   length
 
 ```{r}
 #| echo: true
 length(first_vec)
 ```
-
 
 ## Coercion
 
@@ -332,7 +315,7 @@ Vectors must be homogeneous. When you attempt to combine different types they wi
 
 Order from least to most flexible
 
-`logical` --> `integer` --> `double` --> `character`
+`logical` --\> `integer` --\> `double` --\> `character`
 
 ```{r}
 #| echo: true
@@ -345,7 +328,6 @@ typeof(a)
 anew <- c(3.1, 2L, 3, 4)
 typeof(anew) 
 ```
-
 
 ## Explicit coercion
 
@@ -369,7 +351,7 @@ x <- c("a", "b", "c")
 as.numeric(x)
 ```
 
-##
+## 
 
 ```{r}
 #| echo: true
@@ -379,8 +361,6 @@ combinedx1x2 <- c(x1, x2)
 combinedx1x2 
 ```
 
-
-
 ```{r}
 #| echo: true
 class(x1)
@@ -389,8 +369,7 @@ class(combinedx1x2)
 
 ```
 
-
-- If you combine a numeric vector and a character vector 
+-   If you combine a numeric vector and a character vector
 
 ```{r}
 #| echo: true
@@ -400,12 +379,11 @@ c(y1, y2)
 
 ```
 
-
 ## Name elements in a vector
 
 You can name elements in a vector in different ways. We will learn two of them.
 
-1. When creating it
+1.  When creating it
 
 ```{r}
 #| echo: true
@@ -413,7 +391,7 @@ x1 <- c(a=1991, b=1992, c=1993)
 x1
 ```
 
-2. Modifying the names of an existing vector
+2.  Modifying the names of an existing vector
 
 ```{r}
 #| echo: true
@@ -422,8 +400,7 @@ names(x2) <- c("a", "b", "b")
 x2
 ```
 
-Note that the names do not have to be unique. 
-
+Note that the names do not have to be unique.
 
 ## To remove names of a vector
 
@@ -443,16 +420,15 @@ names(x2) <- NULL; x2
 
 .red[What will be the output of the following code?]
 
-```r
+``` r
 v <- c(1, 2, 3)
 names(v) <- c("a")
 v
 ```
 
-
 ## Simplifying vector creation
 
-- colon `:` produce regular spaced ascending or descending sequences.
+-   colon `:` produce regular spaced ascending or descending sequences.
 
 ```{r}
 #| echo: true
@@ -462,9 +438,9 @@ v
 
 ```
 
-##
+## 
 
-- sequence: `seq(initial_value, final_value, increment)`
+-   sequence: `seq(initial_value, final_value, increment)`
 
 ```{r}
 #| echo: true
@@ -475,9 +451,9 @@ seq(1, 11, length.out=5)
 seq(0, 11, by=2)
 ```
 
-##
+## 
 
-- repeats `rep()` 
+-   repeats `rep()`
 
 ```{r}
 #| echo: true
@@ -496,8 +472,6 @@ rep(1:4, 1:4)
 rep(1:4, c(4, 1, 4, 2))
 
 ```
-
-
 
 ## Logical operators
 
@@ -521,15 +495,13 @@ c(1, 2, 3) != c(10, 20, 3)
 1:5 < 3
 ```
 
-- `<=` less than or equal to
+-   `<=` less than or equal to
 
-- `>=` greater than or equal to
+-   `>=` greater than or equal to
 
-- `|` or
+-   `|` or
 
-- `&` and
-
-
+-   `&` and
 
 ## Operators: `%in%` - in the set
 
@@ -555,26 +527,22 @@ x %in% y
 y %in% x
 ```
 
-
 ## Vector arithmetic
 
-
-- operations are performed element by element. 
+-   operations are performed element by element.
 
 ```{r}
 #| echo: true
 c(10, 100, 100) + 2 # two is added to every element in the vector
 ```
 
-
-- operations between two vectors
+-   operations between two vectors
 
 ```{r}
 #| echo: true
 v1 <- c(1, 2, 3); v2 <- c(10, 100, 1000)
 v1 + v2
 ```
-
 
 Add two vectors of unequal length
 
@@ -586,10 +554,9 @@ shortvec + longvec
 
 ```
 
-
 ## What will be the output of the following code?
 
-```r
+``` r
 first <- c(1, 2, 3, 4); second <- c(10, 100)
 first * second
 ```
@@ -609,4 +576,3 @@ is.na(z)
 ## Packages
 
 tidyverse
-

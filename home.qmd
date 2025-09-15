@@ -32,9 +32,28 @@ Zoom link: available on Moodle
 
 [Chapter 1](https://thiyangt.github.io/rbook/intro.html)
 
-[Chapter 2- 2.3 and 2.4](https://thiyangt.github.io/rbook/chap2.html)
+
+
+Installing packages - in class demo
+
+Documenting with RMarkdown - in class demo
 
 ## TT-Lecture 2
+
+Date: September 15, 2025
+
+Time: 1.15pm - 4.15pm
+
+
+- Creating dataframes 
+
+[Chapter 2- 2.3 and 2.4](https://thiyangt.github.io/rbook/chap2.html)
+
+- [Introduction to tidyverse](https://thiyangt.github.io/rbook/chap7.html)
+
+- [Data wrangling](https://thiyangt.github.io/rbook/chap8.html)
+
+- [Data visualisation](https://thiyangt.github.io/rbook/chap9.html)
 
 ## TT-Lecture 3
 
