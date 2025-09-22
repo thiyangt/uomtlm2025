@@ -67,14 +67,14 @@
     "href": "week1/index.html#r-console",
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "R Console",
-    "text": "R Console\n\n7+1\n\n[1] 8\n\n\n\nrnorm(10) \n\n [1] -0.2838440 -0.7323471 -0.1602364 -0.1882884  1.8508521 -1.0823760\n [7] -0.5751501 -1.1117632 -0.4995379 -1.3055569"
+    "text": "R Console\n\n7+1\n\n[1] 8\n\n\n\nrnorm(10) \n\n [1]  0.04902576  1.94483413 -0.25546464 -0.14367601  1.22017320  0.66555817\n [7]  1.99076348  0.37045710  0.90698912 -1.86273924"
   },
   {
     "objectID": "week1/index.html#variable-assignment",
     "href": "week1/index.html#variable-assignment",
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "Variable assignment",
-    "text": "Variable assignment\n\na &lt;- rnorm(10)\na\n\n [1]  0.08700525 -0.49247079 -0.07665384 -0.12943187  0.42886807  0.36287256\n [7]  1.30077897 -0.40526284 -0.21758551  0.40980415\n\n\n\nb &lt;- a*100\nb\n\n [1]   8.700525 -49.247079  -7.665384 -12.943187  42.886807  36.287256\n [7] 130.077897 -40.526284 -21.758551  40.980415"
+    "text": "Variable assignment\n\na &lt;- rnorm(10)\na\n\n [1]  1.8023482 -0.2400765  0.4241349  0.2455840  1.8751763 -1.8491874\n [7] -0.2875103  1.2750934  0.5515471 -0.5858686\n\n\n\nb &lt;- a*100\nb\n\n [1]  180.23482  -24.00765   42.41349   24.55840  187.51763 -184.91874\n [7]  -28.75103  127.50934   55.15471  -58.58686"
   },
   {
     "objectID": "week1/index.html#data-permanency",
@@ -95,7 +95,7 @@
     "href": "week1/index.html#comment-your-code",
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "Comment your code",
-    "text": "Comment your code\n\nEach line of a comment should begin with the comment symbol and a single space: # .\n\n\nrnorm(10) # This is a comment \n\n [1] -1.65456068  0.16347874  1.10239862  0.04676847  0.23231315 -0.68295927\n [7] -0.88208609 -0.59069196  0.25677563  0.27848387\n\nsum(1:10) # 1+2\n\n[1] 55"
+    "text": "Comment your code\n\nEach line of a comment should begin with the comment symbol and a single space: # .\n\n\nrnorm(10) # This is a comment \n\n [1] -0.4531581 -0.9476889 -1.6158664  1.5647759  0.1856837 -1.3026725\n [7]  0.8478481  1.2428421  0.8513942 -0.1614289\n\nsum(1:10) # 1+2\n\n[1] 55"
   },
   {
     "objectID": "week1/index.html#objects-in-r",
@@ -270,21 +270,21 @@
     "href": "home.html#tt-lecture-1",
     "title": "Teaching and Learning Materials",
     "section": "TT-Lecture 1",
-    "text": "TT-Lecture 1\nDate: September 8, 2025\nTime: 1.15pm - 4.15pm\nZoom link: available on Moodle\nSlides-TT1:\nClick here\nReading and Exercises:\nChapter 1\nInstalling packages - in class demo\nDocumenting with RMarkdown - in class demo"
+    "text": "TT-Lecture 1\nDate: September 8, 2025\nTime: 1.15pm - 4.15pm\nZoom link: available on Moodle\nSlides-TT1:\n\nIntroduction to R and RStudio\nR programming basics\n\nClick here\nReading and Exercises:\nChapter 1\nInstalling packages - in class demo\nDocumenting with RMarkdown - in class demo"
   },
   {
     "objectID": "home.html#tt-lecture-2",
     "href": "home.html#tt-lecture-2",
     "title": "Teaching and Learning Materials",
     "section": "TT-Lecture 2",
-    "text": "TT-Lecture 2\nDate: September 15, 2025\nTime: 1.15pm - 4.15pm\n\nCreating dataframes\n\nChapter 2- 2.3 and 2.4\n\nIntroduction to tidyverse\nData wrangling\nData visualisation"
+    "text": "TT-Lecture 2\nDate: September 15, 2025\nTime: 1.15pm - 4.15pm\n\nData import and data export (reading data from .csv): In-class demo\nCreating dataframes: Section 2.4\n\nChapter 2 - 2.4\n\nIntroduction to tidyverse - 7.1:7.4 and 7.5\nData wrangling-tidyr: 8.1 and 8.2"
   },
   {
     "objectID": "home.html#tt-lecture-3",
     "href": "home.html#tt-lecture-3",
     "title": "Teaching and Learning Materials",
     "section": "TT-Lecture 3",
-    "text": "TT-Lecture 3"
+    "text": "TT-Lecture 3\n\nData wrangling-dplyr\nData visualisation"
   },
   {
     "objectID": "home.html#tt-lecture-4",

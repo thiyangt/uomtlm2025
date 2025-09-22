@@ -26,13 +26,15 @@ Zoom link: available on Moodle
 
 **Slides-TT1:**
 
+- Introduction to R and RStudio
+
+- R programming basics
+
 [Click here](/week1/index.html)
 
 **Reading and Exercises:**
 
 [Chapter 1](https://thiyangt.github.io/rbook/intro.html)
-
-
 
 Installing packages - in class demo
 
@@ -44,17 +46,21 @@ Date: September 15, 2025
 
 Time: 1.15pm - 4.15pm
 
+- Data import  and data export (reading data from .csv): In-class demo
 
-- Creating dataframes 
+-   Creating dataframes: Section 2.4
 
-[Chapter 2- 2.3 and 2.4](https://thiyangt.github.io/rbook/chap2.html)
+[Chapter 2 - 2.4](https://thiyangt.github.io/rbook/chap2.html)
 
-- [Introduction to tidyverse](https://thiyangt.github.io/rbook/chap7.html)
+-   [Introduction to tidyverse - 7.1:7.4 and 7.5](https://thiyangt.github.io/rbook/chap7.html)
 
-- [Data wrangling](https://thiyangt.github.io/rbook/chap8.html)
+-   [Data wrangling-tidyr: 8.1 and 8.2](https://thiyangt.github.io/rbook/chap8.html)
 
-- [Data visualisation](https://thiyangt.github.io/rbook/chap9.html)
 
 ## TT-Lecture 3
+
+-   [Data wrangling-dplyr](https://thiyangt.github.io/rbook/chap8.html)
+
+-   [Data visualisation](https://thiyangt.github.io/rbook/chap9.html)
 
 ## TT-Lecture 4
