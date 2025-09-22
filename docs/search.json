@@ -67,14 +67,14 @@
     "href": "week1/index.html#r-console",
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "R Console",
-    "text": "R Console\n\n7+1\n\n[1] 8\n\n\n\nrnorm(10) \n\n [1]  0.04902576  1.94483413 -0.25546464 -0.14367601  1.22017320  0.66555817\n [7]  1.99076348  0.37045710  0.90698912 -1.86273924"
+    "text": "R Console\n\n7+1\n\n[1] 8\n\n\n\nrnorm(10) \n\n [1] -0.40011000 -0.14865491  1.29172382 -0.29460983  0.14128674 -0.37765814\n [7] -0.07398599  0.99449865 -0.52021576  0.38117445"
   },
   {
     "objectID": "week1/index.html#variable-assignment",
     "href": "week1/index.html#variable-assignment",
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "Variable assignment",
-    "text": "Variable assignment\n\na &lt;- rnorm(10)\na\n\n [1]  1.8023482 -0.2400765  0.4241349  0.2455840  1.8751763 -1.8491874\n [7] -0.2875103  1.2750934  0.5515471 -0.5858686\n\n\n\nb &lt;- a*100\nb\n\n [1]  180.23482  -24.00765   42.41349   24.55840  187.51763 -184.91874\n [7]  -28.75103  127.50934   55.15471  -58.58686"
+    "text": "Variable assignment\n\na &lt;- rnorm(10)\na\n\n [1]  0.11820408 -0.51178400  0.13481484 -1.33898122 -0.51327533  0.38561573\n [7] -0.05883099 -1.36228333  1.65151130  0.97801817\n\n\n\nb &lt;- a*100\nb\n\n [1]   11.820408  -51.178400   13.481484 -133.898122  -51.327533   38.561573\n [7]   -5.883099 -136.228333  165.151130   97.801817"
   },
   {
     "objectID": "week1/index.html#data-permanency",
@@ -95,7 +95,7 @@
     "href": "week1/index.html#comment-your-code",
     "title": "Introduction to R, RStudio and R Programming Basics",
     "section": "Comment your code",
-    "text": "Comment your code\n\nEach line of a comment should begin with the comment symbol and a single space: # .\n\n\nrnorm(10) # This is a comment \n\n [1] -0.4531581 -0.9476889 -1.6158664  1.5647759  0.1856837 -1.3026725\n [7]  0.8478481  1.2428421  0.8513942 -0.1614289\n\nsum(1:10) # 1+2\n\n[1] 55"
+    "text": "Comment your code\n\nEach line of a comment should begin with the comment symbol and a single space: # .\n\n\nrnorm(10) # This is a comment \n\n [1] -0.4720801  0.9596439 -1.9945823 -1.0139362  0.9799542 -0.1528574\n [7]  0.9118105 -0.4241112 -0.1896635 -1.3915665\n\nsum(1:10) # 1+2\n\n[1] 55"
   },
   {
     "objectID": "week1/index.html#objects-in-r",
@@ -243,6 +243,20 @@
     "title": "Pre-requisite for TT-Lecture 01",
     "section": "",
     "text": "Before the R Programming lecture, please install the following software:\n\nR\nRStudio\n\nIf you are a Windows user, you will also need to install an additional software package: Rtools.\nClick here to view R and RStudio installation guide\nNote:\n\nPlease ensure that you install R before installing RStudio.\nAfter installing both R and RStudio, double-click the RStudio icon to open it. In the console, type the following command:\n\nR.version.string\nPress Enter, and note down the displayed R version in your notebook.\n\nTo install Rtools\n\nDownload Rtools from here https://cran.r-project.org/bin/windows/Rtools/\nDownload the correct Rtools installer for your R version from the official Comprehensive R Archive Network (CRAN) page.\n\nFor example:\n\nIf your R version is 4.5.x, download Rtools45quarto render\n\n\n\nIf your R version is 4.4.x, download Rtools44\nIf your R version is 4.3.x, download Rtools43\nIf your R version is 4.2.x, download Rtools42\nIf your R version is 4.0–4.1.x, download Rtools40\n\n\nRun the downloaded .exe file and follow the installer prompts, typically accepting the default options and installation directory."
+  },
+  {
+    "objectID": "ia.html",
+    "href": "ia.html",
+    "title": "LT2010 - Data Science for Transport and Logistics Systems - Intake 23 (University of Moratuwa)",
+    "section": "",
+    "text": "Release date: 22 Sep 2025\nDeadline: 29 Sep 2025\n\n\nThis assignment aims to help you apply data analysis techniques to a real-world dataset in the field of Transport and Logistics Management Engineering. You will analyze the dataset, generate meaningful insights, and prepare a structured report using RMarkdown or Quarto with an HTML output.\n\n\n\n\n\nChoose a dataset related to transport or logistics management (e.g., shipping data, traffic flow, airline performance, freight transport, public transit, etc.).\nThe dataset must come from a reliable source (such as government agencies, research repositories, or open data portals).\nInclude the dataset file in your submission folder.\n\n\n\n\nYour report should include the following sections:\n1. Introduction (≤ 300 words)\nBriefly describe the context of the dataset, its importance in transport/logistics management, and the purpose of your analysis.\n2. Data Description\nProvide details about the dataset: number of observations, variables, types of variables, and any preprocessing or cleaning steps performed.\n3. Exploratory Data Analysis (EDA)\nUse descriptive statistics, visualizations (e.g., histograms, bar plots, boxplots, scatter plots), and summary tables to explore the dataset.\n4. Key Insights\nPresent five insights you discovered from the analysis. Each insight should be clearly explained and supported with evidence (e.g., plots, statistics).\n5. Data Source\nProvide a proper citation or link to the dataset source.\n\n\nUse RMarkdown (.Rmd) or Quarto (.qmd) to prepare your analysis.\nThe output should be in HTML format.\nSubmit a folder that contains:\nThe dataset file\nYour .Rmd or .qmd file\nThe generated .html output\n\n\n\n\nUpload the entire folder (zipped) with your files.\nEnsure that your HTML report is well-structured, readable, and free from major errors."
+  },
+  {
+    "objectID": "ia.html#individual-assignment",
+    "href": "ia.html#individual-assignment",
+    "title": "LT2010 - Data Science for Transport and Logistics Systems - Intake 23 (University of Moratuwa)",
+    "section": "",
+    "text": "Release date: 22 Sep 2025\nDeadline: 29 Sep 2025\n\n\nThis assignment aims to help you apply data analysis techniques to a real-world dataset in the field of Transport and Logistics Management Engineering. You will analyze the dataset, generate meaningful insights, and prepare a structured report using RMarkdown or Quarto with an HTML output.\n\n\n\n\n\nChoose a dataset related to transport or logistics management (e.g., shipping data, traffic flow, airline performance, freight transport, public transit, etc.).\nThe dataset must come from a reliable source (such as government agencies, research repositories, or open data portals).\nInclude the dataset file in your submission folder.\n\n\n\n\nYour report should include the following sections:\n1. Introduction (≤ 300 words)\nBriefly describe the context of the dataset, its importance in transport/logistics management, and the purpose of your analysis.\n2. Data Description\nProvide details about the dataset: number of observations, variables, types of variables, and any preprocessing or cleaning steps performed.\n3. Exploratory Data Analysis (EDA)\nUse descriptive statistics, visualizations (e.g., histograms, bar plots, boxplots, scatter plots), and summary tables to explore the dataset.\n4. Key Insights\nPresent five insights you discovered from the analysis. Each insight should be clearly explained and supported with evidence (e.g., plots, statistics).\n5. Data Source\nProvide a proper citation or link to the dataset source.\n\n\nUse RMarkdown (.Rmd) or Quarto (.qmd) to prepare your analysis.\nThe output should be in HTML format.\nSubmit a folder that contains:\nThe dataset file\nYour .Rmd or .qmd file\nThe generated .html output\n\n\n\n\nUpload the entire folder (zipped) with your files.\nEnsure that your HTML report is well-structured, readable, and free from major errors."
   },
   {
     "objectID": "home.html",

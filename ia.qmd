@@ -1,0 +1,63 @@
+## Individual Assignment
+
+Release date: 22 Sep 2025
+
+Deadline: 29 Sep 2025
+
+### Objective
+
+This assignment aims to help you apply data analysis techniques to a real-world dataset in the field of Transport and Logistics Management Engineering. You will analyze the dataset, generate meaningful insights, and prepare a structured report using RMarkdown or Quarto with an HTML output.
+
+### Instructions
+
+#### Dataset Selection
+
+Choose a dataset related to transport or logistics management (e.g., shipping data, traffic flow, airline performance, freight transport, public transit, etc.).
+
+The dataset must come from a reliable source (such as government agencies, research repositories, or open data portals).
+
+Include the dataset file in your submission folder.
+
+### Report Structure
+
+Your report should include the following sections:
+
+**1. Introduction (≤ 300 words)**
+
+Briefly describe the context of the dataset, its importance in transport/logistics management, and the purpose of your analysis.
+
+**2. Data Description**
+
+Provide details about the dataset: number of observations, variables, types of variables, and any preprocessing or cleaning steps performed.
+
+**3. Exploratory Data Analysis (EDA)**
+
+Use descriptive statistics, visualizations (e.g., histograms, bar plots, boxplots, scatter plots), and summary tables to explore the dataset.
+
+**4. Key Insights**
+
+Present five insights you discovered from the analysis. Each insight should be clearly explained and supported with evidence (e.g., plots, statistics).
+
+**5. Data Source**
+
+Provide a proper citation or link to the dataset source.
+
+#### Technical Requirements
+
+Use RMarkdown (.Rmd) or Quarto (.qmd) to prepare your analysis.
+
+The output should be in HTML format.
+
+Submit a folder that contains:
+
+The dataset file
+
+Your .Rmd or .qmd file
+
+The generated .html output
+
+### Submission
+
+Upload the entire folder (zipped) with your files.
+
+Ensure that your HTML report is well-structured, readable, and free from major errors.

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Pre-requisite for TT-Lecture 01 – LT2010 - Data Science for Transport and Logistics Systems - Intake 23 (University of Moratuwa)</title>
+<title>ia – LT2010 - Data Science for Transport and Logistics Systems - Intake 23 (University of Moratuwa)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Teaching and Learning Materials</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./ia.html"> 
+    <a class="nav-link active" href="./ia.html" aria-current="page"> 
 <span class="menu-text">Individual Assignment</span></a>
   </li>  
 </ul>
@@ -111,67 +111,75 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#individual-assignment" id="toc-individual-assignment" class="nav-link active" data-scroll-target="#individual-assignment">Individual Assignment</a>
+  <ul class="collapse">
+  <li><a href="#objective" id="toc-objective" class="nav-link" data-scroll-target="#objective">Objective</a></li>
+  <li><a href="#instructions" id="toc-instructions" class="nav-link" data-scroll-target="#instructions">Instructions</a></li>
+  <li><a href="#report-structure" id="toc-report-structure" class="nav-link" data-scroll-target="#report-structure">Report Structure</a></li>
+  <li><a href="#submission" id="toc-submission" class="nav-link" data-scroll-target="#submission">Submission</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Pre-requisite for TT-Lecture 01</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
+<section id="individual-assignment" class="level2">
+<h2 class="anchored" data-anchor-id="individual-assignment">Individual Assignment</h2>
+<p>Release date: 22 Sep 2025</p>
+<p>Deadline: 29 Sep 2025</p>
+<section id="objective" class="level3">
+<h3 class="anchored" data-anchor-id="objective">Objective</h3>
+<p>This assignment aims to help you apply data analysis techniques to a real-world dataset in the field of Transport and Logistics Management Engineering. You will analyze the dataset, generate meaningful insights, and prepare a structured report using RMarkdown or Quarto with an HTML output.</p>
+</section>
+<section id="instructions" class="level3">
+<h3 class="anchored" data-anchor-id="instructions">Instructions</h3>
+<section id="dataset-selection" class="level4">
+<h4 class="anchored" data-anchor-id="dataset-selection">Dataset Selection</h4>
+<p>Choose a dataset related to transport or logistics management (e.g., shipping data, traffic flow, airline performance, freight transport, public transit, etc.).</p>
+<p>The dataset must come from a reliable source (such as government agencies, research repositories, or open data portals).</p>
+<p>Include the dataset file in your submission folder.</p>
+</section>
+</section>
+<section id="report-structure" class="level3">
+<h3 class="anchored" data-anchor-id="report-structure">Report Structure</h3>
+<p>Your report should include the following sections:</p>
+<p><strong>1. Introduction (≤ 300 words)</strong></p>
+<p>Briefly describe the context of the dataset, its importance in transport/logistics management, and the purpose of your analysis.</p>
+<p><strong>2. Data Description</strong></p>
+<p>Provide details about the dataset: number of observations, variables, types of variables, and any preprocessing or cleaning steps performed.</p>
+<p><strong>3. Exploratory Data Analysis (EDA)</strong></p>
+<p>Use descriptive statistics, visualizations (e.g., histograms, bar plots, boxplots, scatter plots), and summary tables to explore the dataset.</p>
+<p><strong>4. Key Insights</strong></p>
+<p>Present five insights you discovered from the analysis. Each insight should be clearly explained and supported with evidence (e.g., plots, statistics).</p>
+<p><strong>5. Data Source</strong></p>
+<p>Provide a proper citation or link to the dataset source.</p>
+<section id="technical-requirements" class="level4">
+<h4 class="anchored" data-anchor-id="technical-requirements">Technical Requirements</h4>
+<p>Use RMarkdown (.Rmd) or Quarto (.qmd) to prepare your analysis.</p>
+<p>The output should be in HTML format.</p>
+<p>Submit a folder that contains:</p>
+<p>The dataset file</p>
+<p>Your .Rmd or .qmd file</p>
+<p>The generated .html output</p>
+</section>
+</section>
+<section id="submission" class="level3">
+<h3 class="anchored" data-anchor-id="submission">Submission</h3>
+<p>Upload the entire folder (zipped) with your files.</p>
+<p>Ensure that your HTML report is well-structured, readable, and free from major errors.</p>
 
 
-</header>
-
-
-<p>Before the R Programming lecture, please install the following software:</p>
-<ol type="i">
-<li><p><strong>R</strong></p></li>
-<li><p><strong>RStudio</strong></p></li>
-</ol>
-<p>If you are a Windows user, you will also need to install an additional software package: <strong>Rtools</strong>.</p>
-<p><a href="https://r4fun.netlify.app/blog/topic1/">Click here to view R and RStudio installation guide</a></p>
-<p>Note:</p>
-<ul>
-<li><p>Please ensure that you install R before installing RStudio.</p></li>
-<li><p>After installing both R and RStudio, double-click the RStudio icon to open it. In the console, type the following command:</p></li>
-</ul>
-<p><code>R.version.string</code></p>
-<p>Press Enter, and note down the displayed R version in your notebook.</p>
-<p><img src="img1.png" class="img-fluid"></p>
-<p>To install <strong>Rtools</strong></p>
-<ol type="1">
-<li><p>Download Rtools from here <a href="https://cran.r-project.org/bin/windows/Rtools/" class="uri">https://cran.r-project.org/bin/windows/Rtools/</a></p></li>
-<li><p>Download the correct Rtools installer for your R version from the official Comprehensive R Archive Network (CRAN) page.</p></li>
-</ol>
-<p>For example:</p>
-<ul>
-<li>If your R version is 4.5.x, download Rtools45quarto render</li>
-</ul>
-<!-- -->
-<ul>
-<li><p>If your R version is 4.4.x, download Rtools44</p></li>
-<li><p>If your R version is 4.3.x, download Rtools43</p></li>
-<li><p>If your R version is 4.2.x, download Rtools42</p></li>
-<li><p>If your R version is 4.0–4.1.x, download Rtools40</p></li>
-</ul>
-<ol type="1">
-<li>Run the downloaded .exe file and follow the installer prompts, typically accepting the default options and installation directory.</li>
-</ol>
-
-
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
